@@ -11,11 +11,11 @@ namespace MMSA_Of_N_Numbers
         static void Main(string[] args)
         {
             int n = int.Parse(Console.ReadLine());
-            int[] arr = new int[n];
+            var arr = new double[n];
             for(int i = 0; i < n; i++)
             {
                 
-                arr[i] = int.Parse(Console.ReadLine());
+                arr[i] = double.Parse(Console.ReadLine());
             }
             
             Console.WriteLine("min= {0:F2}", arr.Min());
